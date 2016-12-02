@@ -1228,7 +1228,7 @@ h2,
 /* Timer section */
 .event-section {
   position: relative;
-  background: url(../img-temp/2.jpg) fixed no-repeat 50% 50% / cover;
+  background: url(../img/City.jpg) fixed no-repeat 50% 50% / cover;
 }
 .event-section:before {
   content: "";
@@ -1354,7 +1354,7 @@ h2,
 /* Video section */
 .video-section {
   position: relative;
-  background: url(../img-temp/3.jpg) fixed no-repeat 50% 50% / cover;
+  background: url(../img/City.jpg) fixed no-repeat 50% 50% / cover;
 }
 .video-section:before {
   content: "";
@@ -1606,7 +1606,7 @@ h2,
 /* Posts section */
 .posts-section {
   position: relative;
-  background: url(../img-temp/4.jpg) fixed no-repeat 50% 50% / cover;
+  background: url(../img/City.jpg) fixed no-repeat 50% 50% / cover;
 }
 .posts-section:before {
   content: "";
@@ -1806,7 +1806,7 @@ h2,
   position: relative;
   display: table;
   width: 100%;
-  background: url(../img-temp/1.jpg) fixed no-repeat 50% 50% / cover;
+  background: url(../img/City.jpg) fixed no-repeat 50% 50% / cover;
 }
 .twi-section:before {
   content: "";
