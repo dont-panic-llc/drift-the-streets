@@ -1,6 +1,6 @@
 /* General */
 body {
-	font-family: "Open Sans", Arial, sans-serif;
+	font-family: "Open Sans";
 	color: #999;
 }
 
@@ -493,7 +493,7 @@ h2,
     height: 7px;
   }
 }
-/* .g-heading-v7 h3,
+.g-heading-v7 h3,
 .g-heading-v7 .h3 {
   text-transform: uppercase;
   font-size: 26px;
@@ -503,12 +503,11 @@ h2,
 }
 .g-heading-v7 h4,
 .g-heading-v7 .h4 {
-  text-transform: uppercase;
   font-size: 14px;
   font-weight: 600;
   line-height: auto;
   margin: 0 0 5px;
-  color: #383339;
+  color: #white;
 }
 .g-heading-v7 h5,
 .g-heading-v7 .h5 {
@@ -604,13 +603,13 @@ h2,
 .one-page-header.top-nav-collapse .navbar-nav > li > a,
 .one-page-header.top-nav-collapse .navbar-nav > li > a:before {
   color: #fff;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
   font-weight: bold;
 }
 .one-page-header .navbar-nav > li > a {
   color: #fff;
-  font-size: 11px;
+  font-size: 16px;
   text-transform: uppercase;
   padding: 0 15px;
   font-weight: bold;
@@ -1629,14 +1628,22 @@ h2,
   overflow: hidden;
 }
 .post-image {
-  float: left;
-  width: 268px;
-  height: 201px;
+  float: center;
+  width: auto;
+  height: auto;
   overflow: hidden;
+}
+.post-image:hover {
+  opacity: .5%;
 }
 .post-image img {
   width: auto;
   height: 100%;
+  
+}
+.post-image img:hover {
+  opacity:.5%;
+  
 }
 .post-content {
   position: relative;
@@ -2085,4 +2092,44 @@ h2,
 .g-popup--fb__close:hover {
   color: #4867aa;
   background: #fff;
+}
+
+.carshow-img {
+  width:auto;
+  height:auto;
+	opacity: 100%;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	
+	/*Reflection*/
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
+}
+.carshow-img:hover {
+opacity: 1;
+   
+   /*Reflection*/
+  
+ 
+   /*Glow*/
+  -webkit-box-shadow: 0px 0px 80px rgba(255,255,255,0.8);
+  -moz-box-shadow: 0px 0px 80px rgba(255,255,255,0.8);
+  box-shadow: 0px 0px 80px rgba(255,255,255,0.8);
+}  
+.carshow {
+  margin-top: 20px;
+}
+.tabpanels {
+  font-size: 15px;
+  color: white;
+}
+.BTTN {
+  width: 240px
+  height: auto;
+  	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	
+	/*Reflection*/
+	-webkit-box-reflect: below 0px -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(.7, transparent), to(rgba(0,0,0,0.1)));
 }

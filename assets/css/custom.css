@@ -3,3 +3,39 @@
 .panel-body {
     color: black;
 }
+
+
+.button {
+  background-color: #FAFAFA;
+ text-align:center;
+ font-size: 17px;
+ opacity: 70;
+ color: #000000;
+ border: 2px solid #E64B4B;
+  -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    
+}
+.button:hover {
+ background-color: #FB5454; 
+    color: white;
+    
+}
+.promotext {
+  font-size: 20px;
+  color: #D1D1D1;
+  padding-bottom: 15px;
+}
+.promotext:hover {
+  font-size: 20px;
+  color: white;
+}
+p {
+    font-size: 20px;
+}
+
+#bottomNav li {
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
